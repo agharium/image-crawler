@@ -2,7 +2,7 @@
 
 Requer Python 3.
 
-Antes de rodar:
+Antes de executar, instale a dependencia:
 
 ```
 sudo apt install python3-bs4
