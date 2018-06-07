@@ -17,7 +17,7 @@ while count <= 300:
         productPage = BeautifulSoup(urlopen(Request(root + link["href"], headers={'User-Agent': 'Mozilla/5.0'})), "lxml")
         for div in (productPage.find_all("div", {"class":"gallery-product swiper-wrapper"})):
             img = div.figure.a.img
-            directory = str(Path.home()) + "/ImagesCrawled/Sofa/"
+            directory = str(Path.home()) + "/CrawledImages/Sofa/"
             Path(directory).mkdir(parents=True, exist_ok=True)
             with open(directory + str(count) + ".jpg", 'wb') as outfile:
                 outfile.write(requests.get(img["src"]).content)
