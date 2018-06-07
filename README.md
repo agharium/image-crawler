@@ -10,4 +10,4 @@ sudo apt install python3-bs4
 
 * [Lojas Americanas](americanas)
 * [MagazineLuiza](luiza)
-* OLX
+* [OLX](olx)
