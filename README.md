@@ -1,6 +1,6 @@
 # image-crawler
 
-Requer Python 3.
+Image crawler para lojas brasileiras. Requer Python 3.
 
 Antes de executar, instale a dependencia:
 
