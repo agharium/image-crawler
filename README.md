@@ -1,6 +1,6 @@
 # image-crawler
 
-Image crawler para lojas brasileiras. Requer Python 3.
+Compilado de algoritimos para baixar imagens de produtos de lojas brasileiras. Requer Python 3.
 
 Antes de executar, instale a dependencia:
 
