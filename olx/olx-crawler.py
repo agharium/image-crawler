@@ -17,7 +17,7 @@ while count <= 300:
         listaImagens.pop(0)
         for div in listaImagens:
             img = div.a
-            directory = str(Path.home()) + "/ImagesCrawled/OLX/Sofa/"
+            directory = str(Path.home()) + "/CrawledImages/OLX/Sofa/"
             Path(directory).mkdir(parents=True, exist_ok=True)
             with open(directory + str(count) + ".jpg", 'wb') as outfile:
                 outfile.write(requests.get(img["href"]).content)
