@@ -12,4 +12,4 @@ sudo apt install python3-bs4
 * [MagazineLuiza](luiza)
 * [OLX](olx)
 
-Por padrao as imagens sao baixadas para **_"~/CrawledImages/{LOJA}/{PRODUTO}/"__**
+Por padrao as imagens sao baixadas para **_"~/CrawledImages/{LOJA}/{PRODUTO}/"_**
